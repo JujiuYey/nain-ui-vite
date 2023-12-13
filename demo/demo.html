@@ -1,0 +1,14 @@
+<h1>Demo</h1>
+<div id="app"></div>
+<script type="module">
+  import { createApp } from 'vue/dist/vue.esm-bundler.js';
+  import NainUI, { NainButton } from '../dist/nain-ui.mjs';
+
+  createApp({
+    template: `
+      <NainButton>test</NainButton>
+    `
+  })
+    .use(NainUI)
+    .mount('#app');
+</script>
