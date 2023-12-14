@@ -21,6 +21,7 @@ const safelist = [
   ...colors.map((v) => `hover:bg-${v}-300`),
   ...colors.map((v) => `hover:bg-${v}-400`),
   ...colors.map((v) => `hover:bg-${v}-500`),
+  ...colors.map((v) => `border-${v}-300`),
   ...colors.map((v) => `border-${v}-400`),
   ...colors.map((v) => `border-${v}-500`),
   ...colors.map((v) => `text-${v}-500`),

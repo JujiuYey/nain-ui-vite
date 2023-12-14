@@ -73,7 +73,7 @@ export default defineComponent({
             ${props.round ? 'rounded-full' : 'rounded-lg'}
             bg-${props.color}-${props.plain ? '100' : '500'}
             hover:bg-${props.color}-400
-            border-${props.color}-500
+            border-${props.color}-300
             cursor-pointer
             border-solid
             color-white

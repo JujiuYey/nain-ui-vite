@@ -1,6 +1,6 @@
 import { App } from "vue";
 import NainButton from "./button";
-
+import "uno.css";
 
 // 导出单独组件
 export { NainButton };
